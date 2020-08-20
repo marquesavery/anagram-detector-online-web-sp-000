@@ -5,10 +5,12 @@ class Anagram
   attr_accessor :word
 
   def initialize(word)
-    @word = word.split(" ")
+    @word = word
   end
 
-  def match
+  def match(anagram)
+    anagram_array = anagram.split(" ")
+    @word
 
   end
 
