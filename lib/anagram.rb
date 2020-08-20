@@ -16,7 +16,8 @@ class Anagram
       a2 = a.split(//)
       word2 = @word.split(//)
       if a2.sort == word2.sort
-        match
+        match << a2
+      end
     end
 
   end
