@@ -19,6 +19,7 @@ class Anagram
         match << a2
       end
     end
+    match
 
   end
 
