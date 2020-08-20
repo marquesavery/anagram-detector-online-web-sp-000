@@ -11,6 +11,9 @@ class Anagram
   def match(anagram)
     # anagram_array = anagram.split(" ")
     anagram.collect do |a|
+      a2 = a.split(//)
+
+
       a.sort == @word.sort
     end
 
