@@ -13,8 +13,6 @@ class Anagram
     anagram.collect do |a|
       a2 = a.split(//)
       word2 = @word.split(//)
-
-
       a2.sort == @word2.sort
     end
 
