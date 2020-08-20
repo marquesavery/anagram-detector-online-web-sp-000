@@ -12,6 +12,7 @@ class Anagram
     # anagram_array = anagram.split(" ")
     anagram.collect do |a|
       a2 = a.split(//)
+      @word.split(//)
 
 
       a.sort == @word.sort
