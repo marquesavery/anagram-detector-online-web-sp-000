@@ -14,7 +14,7 @@ class Anagram
       binding.pry
       a2 = a.split(//)
       word2 = @word.split(//)
-      a2.sort == @word2.sort
+      a2.sort == word2.sort
     end
 
   end
